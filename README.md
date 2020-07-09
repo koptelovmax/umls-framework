@@ -8,7 +8,7 @@
 ## To reconstruct the experiments (using preprocessed knowledge base):
 1) Put the predicted interactions in *umls/methods/'name'/pred_result.txt*, where 'name' is the name of the method ('newermine' etc'.)
 2) Run **umls_semsim_verif_auto.py** with 2 parameters: 'name' -- name of the method, 'measure' -- semantic measure ('path', 'lin' or 'sem_vec')
-3) Collect the detailed results in *umls/methods/'name'/pred_res_verified_UMLS-'measure".txt* and the summary in *umls/methods/'name'/pred_res_verified_UMLS-'measure"_stat.txt*
+3) Collect the detailed results in *umls/methods/'name'/pred_res_verified_UMLS-'measure'.txt* and the summary in *umls/methods/'name'/pred_res_verified_UMLS-'measure'_stat.txt*
 
 ## Links to dowload:
 - The IUPHAR database: https://www.guidetopharmacology.org/download.jsp
